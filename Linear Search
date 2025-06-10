@@ -1,0 +1,7 @@
+ def linear_search(a,key):
+     for ravi in range(len(a)):
+         if a[ravi]==key:
+             return f"{key} found in the index of {ravi}"
+     return "not found"
+ a = [4,6,7,420,6,3,20,41,81]
+ print( linear_search(a,6) )
